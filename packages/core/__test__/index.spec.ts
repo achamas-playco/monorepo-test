@@ -1,7 +1,7 @@
-import core from '../src';
+import { Test } from '../src';
 
 describe('core', () => {
   it('should be something', () => {
-    expect(core.x).toBeTruthy();
+    expect(Test.info).toBeTruthy();
   });
 });
