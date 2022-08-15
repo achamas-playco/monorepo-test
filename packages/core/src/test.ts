@@ -13,4 +13,8 @@ export class Test extends Sprite {
       this.rotation += degToRad(1);
     }, 16);
   }
+
+  static get info() {
+    return 'Test!';
+  }
 }
