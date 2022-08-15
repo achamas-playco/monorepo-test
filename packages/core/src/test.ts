@@ -20,6 +20,6 @@ export class Test extends Sprite
 
     static get info()
     {
-        return 'Test!!!2';
+        return 'Test!!!23';
     }
 }
