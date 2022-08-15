@@ -26,7 +26,7 @@ jobs:
         run: node common/scripts/install-run-rush.js install --bypass-policy
 
       - name: Lint Core
-        working-directory: packages/core
+        working-directory: ./packages/core
         run: yarn lint
 
       - name: Lint Editor
