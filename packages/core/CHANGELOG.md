@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/achamas-playco/monorepo-test/compare/core-v1.1.0...core-v1.2.0) (2022-08-15)
+
+
+### Features
+
+* something cool ([e1ee374](https://github.com/achamas-playco/monorepo-test/commit/e1ee374365f1dc2b1b5bdfd24f7615f2f5a6d6c4))
+
 ## [1.1.0](https://github.com/achamas-playco/monorepo-test/compare/core-v1.0.0...core-v1.1.0) (2022-08-15)
 
 
