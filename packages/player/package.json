@@ -2,36 +2,29 @@
   "name": "player",
   "version": "1.0.0",
   "type": "module",
+  "main": "./dist/index.js",
   "files": [
     "./dist"
   ],
-  "main": "./dist/index.js",
   "scripts": {
     "build": "tsc && vite build",
     "build:watch": "tsc && vite build --mode dev",
-    "test": "jest",
-    "lint": "eslint \"src/**/*.ts\""
-  },
-  "devDependencies": {
-    "typescript": "^4.6.4",
-    "vite": "^3.0.7",
-    "express": "~4.18.1",
-    "@rollup/plugin-typescript": "~8.3.4",
-    "jest": "~28.1.3",
-    "ts-jest": "~28.0.7",
-    "@types/jest": "~28.1.6",
-    "ts-node": "~10.9.1",
-    "@types/node": "~18.7.2",
-    "eslint": "^8.6.0",
-    "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-unused-imports": "^2.0.0",
-    "@typescript-eslint/eslint-plugin": "^5.9.1",
-    "@typescript-eslint/parser": "^5.9.1",
-    "prettier": "^2.7.1"
+    "lint": "eslint \"src/**/*.ts\" -c ../../common/autoinstallers/rush-lint/.eslintrc.json --ignore-path ../../common/autoinstallers/rush-lint/.eslintignore",
+    "lint:fix": "eslint \"src/**/*.ts\" -c ../../common/autoinstallers/rush-lint/.eslintrc.json --ignore-path ../../common/autoinstallers/rush-lint/.eslintignore --fix",
+    "test": "jest"
   },
   "dependencies": {
     "core": "workspace:*",
     "pixi.js": "~6.5.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "~8.3.4",
+    "@types/jest": "~28.1.6",
+    "@types/node": "~18.7.2",
+    "jest": "~28.1.3",
+    "ts-jest": "~28.0.7",
+    "ts-node": "~10.9.1",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7"
   }
 }
