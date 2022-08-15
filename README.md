@@ -2,5 +2,6 @@
 
 todo....
 
-
 Semantic releases: https://github.com/semantic-release/semantic-release/blob/master/docs/usage/getting-started.md#getting-started
+
+rush update-autoinstaller --name rush-prettier
