@@ -1,21 +1,5 @@
 {
-  "compilerOptions": {
-    "strict": true,
-    "types": ["jest", "node"],
-    "target": "ESNext",
-    "useDefineForClassFields": true,
-    "module": "ESNext",
-    "lib": ["ESNext", "DOM"],
-    "moduleResolution": "Node",
-    "sourceMap": true,
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "esModuleInterop": true,
-    "noEmit": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "noImplicitReturns": true,
-    "skipLibCheck": true
-  },
+  "extends": "../../tsconfig.base",
+  "compilerOptions": {},
   "include": ["src", "__test__"]
 }

@@ -10,7 +10,8 @@
     "dev": "tsc && vite build --mode dev",
     "build": "tsc && vite build",
     "test": "jest",
-    "lint": "eslint \"src/**/*.ts\""
+    "lint": "eslint \"src/**/*.ts\" -c ../../common/autoinstallers/rush-lint/.eslintrc.json --ignore-path ../../common/autoinstallers/rush-lint/.eslintignore",
+    "lint:fix": "eslint \"src/**/*.ts\" -c ../../common/autoinstallers/rush-lint/.eslintrc.json --ignore-path ../../common/autoinstallers/rush-lint/.eslintignore --fix"
   },
   "devDependencies": {
     "jest": "~28.1.3",
