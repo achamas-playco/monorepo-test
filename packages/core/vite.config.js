@@ -33,6 +33,7 @@ export default defineConfig(({ command, mode, ssrBuild }) => ({
           allowSyntheticDefaultImports: true
         })
       ]
-    }
+    },
+    chunkSizeWarningLimit: 2000
   }
 }));
