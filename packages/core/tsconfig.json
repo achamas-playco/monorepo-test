@@ -1,5 +1,6 @@
 {
   "compilerOptions": {
+    "types": ["jest", "node"],
     "target": "ESNext",
     "useDefineForClassFields": true,
     "module": "ESNext",
@@ -16,5 +17,5 @@
     "noImplicitReturns": true,
     "skipLibCheck": true
   },
-  "include": ["src"]
+  "include": ["src", "__test__"]
 }
