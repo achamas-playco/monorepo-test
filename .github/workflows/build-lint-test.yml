@@ -22,16 +22,12 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
-      - name: Check for Change Files
-        run: node common/scripts/install-run-rush.js change -v
-
       - name: Install Dependencies
         run: node common/scripts/install-run-rush.js install --bypass-policy
 
       - name: Lint Core
-        run: |
-          cd packages/core
-          yarn lint
+        working-directory: packages/core
+        run: yarn lint
 
       - name: Lint Editor
         run: |
