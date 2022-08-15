@@ -1,0 +1,15 @@
+{
+  "bootstrap-sha": "61ac0a2a52d4264d7477f9ae0a29d382e928b16c",
+  "release-type": "node",
+  "packages": {
+    "./packages/core": {
+      "package-name": "core"
+    },
+    "./packages/editor": {
+      "package-name": "editor"
+    },
+    "./packages/player": {
+      "package-name": "player"
+    }
+  }
+}

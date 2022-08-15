@@ -1,3 +1,1 @@
-export default { x: 7 };
-
-console.log('core!!!');
+export { Test } from './test';
