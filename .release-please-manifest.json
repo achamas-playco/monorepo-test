@@ -1,5 +1,5 @@
 {
-  "./packages/core": "0.0.0",
-  "./packages/editor": "0.0.0",
-  "./packages/player": "0.0.0"
+  "packages/core": "0.0.0",
+  "packages/editor": "0.0.0",
+  "packages/player": "0.0.0"
 }
