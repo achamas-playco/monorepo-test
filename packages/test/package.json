@@ -6,9 +6,7 @@
     "build": "vite build",
     "check": "svelte-check --tsconfig ./tsconfig.json",
     "dev": "vite --port=3000",
-    "preview": "vite preview",
-    "lint": "eslint \"src/**/*.ts\" -c ../../common/autoinstallers/rush-lint/.eslintrc.json --ignore-path ../../common/autoinstallers/rush-lint/.eslintignore",
-    "lint:fix": "eslint \"src/**/*.ts\" -c ../../common/autoinstallers/rush-lint/.eslintrc.json --ignore-path ../../common/autoinstallers/rush-lint/.eslintignore --fix"
+    "preview": "vite preview"
   },
   "dependencies": {
     "core": "workspace:*",
@@ -18,7 +16,6 @@
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.1",
     "@tsconfig/svelte": "^3.0.0",
-    "eslint": "^8.6.0",
     "svelte": "^3.49.0",
     "svelte-check": "^2.8.0",
     "svelte-preprocess": "^4.10.7",

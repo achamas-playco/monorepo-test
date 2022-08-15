@@ -25,25 +25,6 @@ jobs:
       - name: Install Dependencies
         run: node common/scripts/install-run-rush.js install --bypass-policy
 
-      - name: Lint Core
-        run: yarn lint
-        working-directory: ./packages/core
-
-      - name: Lint Editor
-        run: |
-          cd packages/editor
-          yarn lint
-
-      - name: Lint Player
-        run: |
-          cd packages/player
-          yarn lint
-
-      - name: Lint Test
-        run: |
-          cd packages/test
-          yarn lint
-
       - name: Test Core
         run: |
           cd packages/core
