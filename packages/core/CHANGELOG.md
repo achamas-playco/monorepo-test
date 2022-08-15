@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.3.0](https://github.com/achamas-playco/monorepo-test/compare/core-v1.2.0...core-v1.3.0) (2022-08-15)
+
+
+### Features
+
+* fix ([be09a3f](https://github.com/achamas-playco/monorepo-test/commit/be09a3f94d892ea52c4ee54c88051bd3f0e72f1a))
+* fix stuff ([b2c5495](https://github.com/achamas-playco/monorepo-test/commit/b2c5495389bd0d61eb0e3039159cfaa16d0dbea3))
+* test ([73fff0a](https://github.com/achamas-playco/monorepo-test/commit/73fff0a6f4e94dda6d52197b987ef09062bbb83c))
+
+
+### Bug Fixes
+
+* add strict ([7d02d2b](https://github.com/achamas-playco/monorepo-test/commit/7d02d2b4caa86934750a0d92bf7b3926255cc5f0))
+* lint build ([3951af1](https://github.com/achamas-playco/monorepo-test/commit/3951af152982c69c490f1d1d802785199fc4569f))
+* linting ([a06d208](https://github.com/achamas-playco/monorepo-test/commit/a06d208d3a5fbc7ae167523e42543af1662e3758))
+* linting ([14a2191](https://github.com/achamas-playco/monorepo-test/commit/14a219118d92e12492b0d045478175b2217abc22))
+
 ## [1.2.0](https://github.com/achamas-playco/monorepo-test/compare/core-v1.1.0...core-v1.2.0) (2022-08-15)
 
 
