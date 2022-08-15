@@ -9,7 +9,7 @@
   },
   "overrides": [
     {
-      "files": ["**.test**"],
+      "files": ["*/**/**.ts", "**.test**"],
       "rules": {
         "dot-notation": 0
       }

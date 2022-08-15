@@ -9,7 +9,7 @@
   "scripts": {
     "build": "tsc && vite build",
     "dev": "tsc && vite build --mode dev",
-    "lint": "eslint \"src/**/*.ts\" -c ../../common/autoinstallers/rush-lint/.eslintrc.json --ignore-path ../../common/autoinstallers/rush-lint/.eslintignore",
+    "lint": "eslint -c ../../common/autoinstallers/rush-lint/.eslintrc.json --ignore-path ../../common/autoinstallers/rush-lint/.eslintignore",
     "lint:fix": "eslint \"src/**/*.ts\" -c ../../common/autoinstallers/rush-lint/.eslintrc.json --ignore-path ../../common/autoinstallers/rush-lint/.eslintignore --fix",
     "test": "jest"
   },
